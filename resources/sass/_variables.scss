@@ -1,0 +1,42 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+
+
+
+$cyan: #6571FF !default;
+$gray: #ADB5BD !default;
+$blue: #0099FB !default;
+$green: #0AC074 !default;
+$red:   #F62947 !default;
+$yellow: #FFB821 !default;
+//$white: if(isDarkMode(), #13151F, #FFFFFF) !default;
+//$black: if(isDarkMode(), #060917, #EFF3F6) !default;
+$white: #FFFFFF !default;
+$black: #060917 !default;
+$pink: #FF679B !default;
+$orange: #FF8717 !default;
+
+$primary: $cyan !default;
+$secondary: $gray !default;
+$success: $green !default;
+$info: $blue !default;
+$warning: $yellow !default;
+$danger: $red !default;
+
+$gray-100:  if(isDarkMode(), #1D1F28, #F8F9FA) !default;
+$gray-200:  if(isDarkMode(), #262832, #E9ECEF) !default;
+$gray-300:  if(isDarkMode(), #495057, #DEE2E6) !default;
+$gray-400:  if(isDarkMode(), #6C757D, #CED4DA) !default;
+$gray-600:  if(isDarkMode(), #6C757E, #6C757D) !default;
+$gray-700:  if(isDarkMode(), #DEE2E6, #495057) !default;
+$gray-800:  if(isDarkMode(), #E9ECEF, #343A40) !default;
+$gray-900:  if(isDarkMode(), #FFFFFF, #212529) !default;
+
+
+$theme-box-shadow: 0 5px 20px rgba(173, 181, 189, 0.2) !default;

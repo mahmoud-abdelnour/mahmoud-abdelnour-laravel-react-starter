@@ -1,0 +1,243 @@
+
+$primary-light : #6571FF !default;
+$primary: #ccc;
+
+.ps-menu-root{
+
+    .ps-menu-button{
+        transition: color 0.4s, background-color 0.3s;
+        &:hover {
+            background-color: $primary-light;
+            color: #7f8dff;
+        }
+        
+        .ps-menu-icon{
+            font-size: 18px;
+        }
+        .ps-submenu-expand-icon *{
+            width: 10px;
+            height: 10px;
+        }
+    }
+
+    .ps-menu-button:hover {
+        background-color: transparent!important;
+    }
+
+    .ps-submenu-content{
+        background-color:#1b2735 !important;
+    
+        .ps-menu-label{
+            font-size: 15px;
+        }    
+
+    }
+    .ps-menu-label{
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+  
+}
+
+
+.toast-card__icon--success {
+    color: #FFFFFF;
+    background-color: #0AC074;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .toast-card__icon--error {
+    color: #FFFFFF;
+    background-color: #F62947;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+
+
+  .image {
+    display: inline-block;;
+    flex-shrink: 0;
+    position: relative;
+    object-fit: cover;
+
+    @media (max-width: 575px) {
+        max-width: 120px;
+    }
+
+    // Image
+    > img {
+        width: 100%;
+        flex-shrink: 0;
+        display: inline-block;
+        object-fit: cover;
+    }
+
+    // Square
+    &.image-square {
+        &,
+        > img {
+            border-radius: 0 !important;
+        }
+    }
+
+    // Circle
+    &.image-circle {
+        &,
+        > img {
+            border-radius: 50%;
+        }
+    }
+}
+
+
+.image-picker {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.475rem;
+    display: inline-block;
+    position: relative;
+
+    .previewImage {
+        width: 100px;
+        height: 100px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        box-shadow: 0 5px 20px rgba(173, 181, 189, 0.2);
+        border-radius: 0.313rem;
+        border: 0.063rem solid $gray-700;
+        background-position: center;
+    }
+
+    .picker-edit {
+        width: 25px;
+        height: 25px;
+        background-color: $body-bg;
+        box-shadow: 0 5px 20px rgba(173, 181, 189, 0.2);
+        border: 0.063rem solid $gray-700;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+
+        label {
+            cursor: pointer;
+        }
+    }
+
+    .upload-file {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+.user-avatar img{
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
+  .Toastify {
+    z-index: 999999;
+  }
+  .Toastify__toast {
+    box-shadow: 0 1rem 2rem 1rem rgba(173, 181, 189, 0.2);
+    border-radius: 10px;
+    min-height: 80px;
+    width: auto;
+  }
+  .Toastify__toast-container {
+    width: auto;
+    opacity: 1;
+  }
+  
+  .toast-card {
+    font-family: Poppins, Helvetica, "sans-serif";
+    margin-right: 30px !important;
+  }
+  .toast-card__icon--success {
+    color: #FFFFFF;
+    background-color: #0AC074;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .toast-card__icon--error {
+    color: #FFFFFF;
+    background-color: #F62947;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .toast-card__icon svg {
+    padding: 5px;
+    font-size: 10px;
+  }
+  .toast-card__toast-title {
+    color: #212529;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 0 !important;
+  }
+  .toast-card__toast-message {
+    color: #495057;
+    font-size: 14px;
+    margin-bottom: 0 !important;
+  }
+  .toast-card__close-btn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 20px;
+    cursor: pointer;
+    color: #495057;
+    display: flex;
+  }
+  
+  .Toastify__toast-container--top-right {
+    right: 0 !important;
+  }
+  
+  @media (max-width: 480px) {
+    .Toastify__toast-container--top-right {
+      min-width: 260px;
+      max-width: 260px;
+      top: 1em !important;
+      right: 0;
+      left: auto;
+    }
+  }
+  
+  .Toastify__toast--rtl {
+    direction: ltr;
+  }
