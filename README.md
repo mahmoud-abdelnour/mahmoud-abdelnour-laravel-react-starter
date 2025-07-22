@@ -41,8 +41,8 @@ A full-stack web application with Laravel 12 backend API and React 18 frontend, 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/project-name.git
-   cd project-name
+   git clone https://github.com/mahmoud-abdelnour/laravel-react-starter.git
+   cd laravel-react-starter
 
 Install PHP dependencies:
 
