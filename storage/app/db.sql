@@ -60,14 +60,5 @@ INSERT INTO `model_has_roles` (`role_id`, `model_type`, `model_id`) VALUES
 
 
 
-INSERT INTO `oauth_clients` (`id`, `user_id`, `name`, `secret`, `provider`, `redirect`, `personal_access_client`, `password_client`, `revoked`, `created_at`, `updated_at`) VALUES
-(1, NULL, 'Laravel Personal Access Client', 'RZreALpWhzvoIXyW3trjvpO6qZxJeQwOsjxZddvk', NULL, 'http://localhost', 1, 0, 0, '2025-03-17 04:51:59', '2025-03-17 04:51:59'),
-(2, NULL, 'Laravel Password Grant Client', 'vFdN8zzDUxCm6iNSNdrRKrdw2lyX9RlAuAPMXmUe', 'users', 'http://localhost', 0, 1, 0, '2025-03-17 04:51:59', '2025-03-17 04:51:59');
-
-
-
-INSERT INTO `oauth_personal_access_clients` (`id`, `client_id`, `created_at`, `updated_at`) VALUES
-(1, 1, '2025-03-17 04:51:59', '2025-03-17 04:51:59');
-
 
 COMMIT;
