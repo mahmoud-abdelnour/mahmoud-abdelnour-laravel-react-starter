@@ -14,7 +14,7 @@ SET time_zone = "+00:00";
 
 
 
----
+--
 -- Dumping data for table `users`
 --
 
@@ -25,19 +25,19 @@ INSERT INTO `users` (`id`, `name`, `email`, `phone`, `active`, `email_verified_a
 
 
 INSERT INTO `permissions` (`id`, `name`, `display_name`, `guard_name`, `created_at`, `updated_at`) VALUES
-(1, 'manage_users', 'Manage Users', 'web', '2025-03-24 07:46:14', '2025-03-24 07:51:34'),
-(3, 'manage_products', 'Manage Products', 'web', '2025-03-25 03:04:29', '2025-03-25 03:04:29'),
-(5, 'manage_roles', 'Manage Roles', 'web', '2025-03-25 10:48:46', '2025-03-25 10:48:46'),
-(6, 'manage_product_categories', 'Manage Product Category', 'web', NULL, NULL),
-(7, 'manage_dashboard', 'Manage Dashboard', 'web', NULL, NULL),
-(8, 'manage_profile', 'Manage Profile', 'web', NULL, NULL),
-(9, 'manage_settings', 'Manage Settings', 'web', NULL, NULL);
+(1, 'manage_users', 'Manage Users', 'api', '2025-03-24 07:46:14', '2025-03-24 07:51:34'),
+(3, 'manage_products', 'Manage Products', 'api', '2025-03-25 03:04:29', '2025-03-25 03:04:29'),
+(5, 'manage_roles', 'Manage Roles', 'api', '2025-03-25 10:48:46', '2025-03-25 10:48:46'),
+(6, 'manage_product_categories', 'Manage Product Category', 'api', NULL, NULL),
+(7, 'manage_dashboard', 'Manage Dashboard', 'api', NULL, NULL),
+(8, 'manage_profile', 'Manage Profile', 'api', NULL, NULL),
+(9, 'manage_settings', 'Manage Settings', 'api', NULL, NULL);
 
 
 
 INSERT INTO `roles` (`id`, `name`, `display_name`, `guard_name`, `created_at`, `updated_at`) VALUES
-(1, 'admin', 'administrator', 'web', '2025-03-20 06:55:02', '2025-04-07 03:49:55'),
-(2, 'moderator', 'moderator ', 'web', '2025-03-20 06:44:56', '2025-04-10 12:44:04');
+(1, 'admin', 'administrator', 'api', '2025-03-20 06:55:02', '2025-04-07 03:49:55'),
+(2, 'moderator', 'moderator ', 'api', '2025-03-20 06:44:56', '2025-04-10 12:44:04');
 
 
 

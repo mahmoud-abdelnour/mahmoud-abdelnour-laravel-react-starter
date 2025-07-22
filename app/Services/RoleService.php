@@ -68,7 +68,7 @@ class RoleService {
             $role = $this->roleRepository->create([
                 'name' => $data->name,
                 'display_name' => $data->display_name,
-                'guard_name' => 'web' 
+                'guard_name' => 'api' 
             ]);
             
             if ($role) {
